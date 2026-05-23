@@ -46,7 +46,7 @@ def clear_screen():
 
 def print_header():
     print("\n" + "="*52)
-    print("   🍪  Roblox Auto-Rejoin  |  by YURXZ")
+    print("   🍪  Roblox Auto-Rejoin  |  by DAPEWS")
     print("="*52 + "\n")
 
 def get_memory_info():
@@ -99,7 +99,7 @@ def draw_ui(accounts, phase, detail="", extra=""):
     mem, mpct = get_memory_info()
 
     # Judul di tengah atas tabel
-    title = " 🍪 Roblox Auto-Rejoin | YURXZ "
+    title = " 🍪 Roblox Auto-Rejoin | Dapews "
     inner = C1 + 1 + C2 + 2  # total lebar dalam tabel
     tlen  = len(title)
     if tlen <= inner:
